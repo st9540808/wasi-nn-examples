@@ -1,0 +1,4 @@
+[submodule "crates/wasi-nn"]
+	path = crates/wasi-nn
+	url = https://github.com/radu-matei/wasi-nn-guest
+	branch = onnx
