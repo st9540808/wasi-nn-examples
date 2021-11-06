@@ -15,5 +15,5 @@ Then use [WasmEdge](https://github.com/WasmEdge/WasmEdge) to run the compiled We
 
 ```bash
 $ LD_LIBRARY_PATH=<PATH-TO-ONNX>onnxruntime-linux-x64-1.9.0/lib \
-wasmedge ./target/wasm32-wasi/debug/wasi-nn-examples.wasm
+  wasmedge --dir .:. ./target/wasm32-wasi/debug/wasi-nn-examples.wasm
 ```

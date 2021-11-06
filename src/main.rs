@@ -29,8 +29,8 @@ fn load_model() {
 }
 
 fn main() {
-    println!("curdir: {:#?}", std::env::current_dir().unwrap());
-    println!("PATH: {:#?}", std::env::var("PATH").unwrap());
+    // println!("curdir: {:#?}", std::env::current_dir().unwrap());
+    // println!("PATH: {:#?}", std::env::var("PATH").unwrap());
     load_empty();
     load_model();
 }
